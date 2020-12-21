@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/steffanvandepoll/coursera-mongodb/issues"
   },
-  "homepage": "https://github.com/steffanvandepoll/coursera-mongodb#readme"
+  "homepage": "https://github.com/steffanvandepoll/coursera-mongodb#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
