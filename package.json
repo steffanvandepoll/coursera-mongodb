@@ -1,7 +1,7 @@
 {
   "name": "node-examples",
   "version": "1.0.0",
-  "description": "Simple Node Examples",
+  "description": "Node HTTP Module Example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
