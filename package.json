@@ -1,25 +1,16 @@
 {
-  "name": "node-examples",
-  "version": "1.0.0",
-  "description": "Node HTTP Module Example",
-  "main": "index.js",
+  "name": "confusionserver",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steffanvandepoll/coursera-mongodb.git"
-  },
-  "author": "Steffan van de Poll",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steffanvandepoll/coursera-mongodb/issues"
-  },
-  "homepage": "https://github.com/steffanvandepoll/coursera-mongodb#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "morgan": "^1.9.0"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
   }
 }
